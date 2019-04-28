@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    username: root
+    password: cwk199651
+    url: jdbc:mysql://192.168.24.221:3306/jpa_demo
+
+  #更新或者创建数据表
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
